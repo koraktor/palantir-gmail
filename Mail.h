@@ -1,10 +1,9 @@
-//
-//  Mail.h
-//  Palantir Google Mail
-//
-//  Created by Sebastian Staudt on 12.03.10.
-//  Copyright 2010 AG der Dillinger Hüttenwerke. All rights reserved.
-//
+/**
+ * This code is free software; you can redistribute it and/or modify it under
+ * the terms of the new BSD License.
+ *
+ * Copyright (c) 2010, Sebastian Staudt
+ */
 
 #import <Cocoa/Cocoa.h>
 
