@@ -1,0 +1,45 @@
+html
+{
+    margin:     0;
+    overflow-y: hidden;
+    padding:    0;
+}
+
+body
+{
+    background: transparent;
+    margin:     0;
+    overflow-y: hidden;
+    padding:    0;
+}
+
+a {
+    color:           #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div#content
+{
+    color:       #ffffff;
+    font-family: 'Gill Sans', sans-serif;
+    font-size:   9pt;
+    margin:      5px 10px 0px 10px;
+    opacity:     0.85;
+    overflow-y:  hidden;
+    padding:     7px;
+    
+    -webkit-border-radius: 10px;
+}
+
+div.subject
+{
+    border-top:  2px solid #ffffff;
+    font-size:   10pt;
+    font-weight: bold;
+    margin-top:  10px;
+    padding-top: 10px;
+}

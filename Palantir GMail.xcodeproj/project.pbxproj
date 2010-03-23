@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		02BAD09A1158947600F45CBF /* Git Version */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02BAD09D1158949400F45CBF /* Build configuration list for PBXAggregateTarget "Git Version" */;
+			buildPhases = (
+				02BAD0991158947600F45CBF /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Git Version";
+			productName = "Git Version";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0234F2921146C42C00F73B26 /* new-mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234F2901146C42B00F73B26 /* new-mail.png */; };
+		0234F2931146C42C00F73B26 /* no-mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234F2911146C42C00F73B26 /* no-mail.png */; };
+		0234F410114A9E2200F73B26 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0234F40F114A9E2200F73B26 /* WebKit.framework */; };
+		0234F535114AEBC500F73B26 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234F534114AEBC500F73B26 /* Mail.m */; };
+		0234F636114BAA8600F73B26 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 0234F635114BAA8600F73B26 /* default.css */; };
+		0234F67A114BD45200F73B26 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234F679114BD45200F73B26 /* arrow.png */; };
+		02CEB41010F21654002C45A4 /* GoogleMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CEB40F10F21654002C45A4 /* GoogleMail.m */; };
+		02CEB41210F2165E002C45A4 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CEB41110F2165E002C45A4 /* Configuration.xib */; };
+		02D23EA4113C6F9A004062B5 /* Palantir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D23D9E113C374F004062B5 /* Palantir.framework */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02BAD0F51158966E00F45CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BAD09A1158947600F45CBF /* Git Version */;
+			remoteInfo = "Git Version";
+		};
+		02D23D9B113C374F004062B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020918B310F6541D00C02294 /* Palantir.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02CEAF8110EE65E1002C45A4;
+			remoteInfo = Palantir;
+		};
+		02D23D9D113C374F004062B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020918B310F6541D00C02294 /* Palantir.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02CEB47C10F2189A002C45A4;
+			remoteInfo = "Palantir Framework";
+		};
+		02D23E1A113C3AC5004062B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020918B310F6541D00C02294 /* Palantir.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02CEB47B10F2189A002C45A4;
+			remoteInfo = "Palantir Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020918B310F6541D00C02294 /* Palantir.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Palantir.xcodeproj; path = ../palantir/Palantir.xcodeproj; sourceTree = SOURCE_ROOT; };
+		0213451E114BE8250070E764 /* default.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = default.html; sourceTree = "<group>"; };
+		0234F2901146C42B00F73B26 /* new-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-mail.png"; sourceTree = "<group>"; };
+		0234F2911146C42C00F73B26 /* no-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-mail.png"; sourceTree = "<group>"; };
+		0234F40F114A9E2200F73B26 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		0234F533114AEBC500F73B26 /* Mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
+		0234F534114AEBC500F73B26 /* Mail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
+		0234F635114BAA8600F73B26 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		0234F679114BD45200F73B26 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		02CEB40E10F21654002C45A4 /* GoogleMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMail.h; sourceTree = "<group>"; };
+		02CEB40F10F21654002C45A4 /* GoogleMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMail.m; sourceTree = "<group>"; };
+		02CEB41110F2165E002C45A4 /* Configuration.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Configuration.xib; sourceTree = "<group>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* Palantir GMail_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Palantir GMail_Prefix.pch"; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* GMail.pal */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMail.pal; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				02D23EA4113C6F9A004062B5 /* Palantir.framework in Frameworks */,
+				0234F410114A9E2200F73B26 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D23D96113C374F004062B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D23D9C113C374F004062B5 /* Palantir.app */,
+				02D23D9E113C374F004062B5 /* Palantir.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089C166AFE841209C02AAC07 /* Palantir Google Mail */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Palantir Google Mail";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				020918B310F6541D00C02294 /* Palantir.xcodeproj */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0234F679114BD45200F73B26 /* arrow.png */,
+				0234F2901146C42B00F73B26 /* new-mail.png */,
+				0234F2911146C42C00F73B26 /* no-mail.png */,
+				02CEB41110F2165E002C45A4 /* Configuration.xib */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				0234F635114BAA8600F73B26 /* default.css */,
+				0213451E114BE8250070E764 /* default.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02CEB40E10F21654002C45A4 /* GoogleMail.h */,
+				02CEB40F10F21654002C45A4 /* GoogleMail.m */,
+				0234F533114AEBC500F73B26 /* Mail.h */,
+				0234F534114AEBC500F73B26 /* Mail.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0234F40F114A9E2200F73B26 /* WebKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* GMail.pal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* Palantir GMail_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* Palantír GMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Palantír GMail" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BAD0F61158966E00F45CBF /* PBXTargetDependency */,
+				02D23E1B113C3AC5004062B5 /* PBXTargetDependency */,
+			);
+			name = "Palantír GMail";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Palantir Google Mail";
+			productReference = 8D5B49B6048680CD000E48DA /* GMail.pal */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Palantir GMail" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Palantir Google Mail */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 02D23D96113C374F004062B5 /* Products */;
+					ProjectRef = 020918B310F6541D00C02294 /* Palantir.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Palantír GMail */,
+				02BAD09A1158947600F45CBF /* Git Version */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		02D23D9C113C374F004062B5 /* Palantir.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Palantir.app;
+			remoteRef = 02D23D9B113C374F004062B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		02D23D9E113C374F004062B5 /* Palantir.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Palantir.framework;
+			remoteRef = 02D23D9D113C374F004062B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CEB41210F2165E002C45A4 /* Configuration.xib in Resources */,
+				0234F2921146C42C00F73B26 /* new-mail.png in Resources */,
+				0234F2931146C42C00F73B26 /* no-mail.png in Resources */,
+				0234F636114BAA8600F73B26 /* default.css in Resources */,
+				0234F67A114BD45200F73B26 /* arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02BAD0991158947600F45CBF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=$PATH:$HOME/bin:$HOME/local/bin:/sw/bin:/opt/local/bin\nVERSION=$(cd \"$PROJECT_DIR\"; git describe)\nLONG_VERSION=$(echo $VERSION | sed -e \"s/\\-/\\./\" -e \"s/^v//\" -e \"s/-.*//\")\nSHORT_VERSION=$(echo $VERSION | sed -e \"s/\\-.*//\" -e \"s/^v//\")\n\necho -n \"#define LONG_VERSION $LONG_VERSION\n#define GIT_VERSION $VERSION\n#define SHORT_VERSION $SHORT_VERSION\" > \"$PROJECT_TEMP_DIR/git-info\"\ntouch Info.plist";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CEB41010F21654002C45A4 /* GoogleMail.m in Sources */,
+				0234F535114AEBC500F73B26 /* Mail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BAD0F61158966E00F45CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02BAD09A1158947600F45CBF /* Git Version */;
+			targetProxy = 02BAD0F51158966E00F45CBF /* PBXContainerItemProxy */;
+		};
+		02D23E1B113C3AC5004062B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Palantir Framework";
+			targetProxy = 02D23E1A113C3AC5004062B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02BAD09B1158947600F45CBF /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Git Version";
+			};
+			name = Development;
+		};
+		02BAD09C1158947600F45CBF /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Git Version";
+			};
+			name = Production;
+		};
+		1DEB913B08733D840010E9CD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"${SRCROOT}\"/../palantir/build/${CONFIGURATION}";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palantir GMail_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREFIX_HEADER = "$PROJECT_TEMP_DIR/git-info";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(HOME)/Application Support/Palantir/PlugIns";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = GMail;
+				WRAPPER_EXTENSION = pal;
+			};
+			name = Development;
+		};
+		1DEB913C08733D840010E9CD /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"${SRCROOT}\"/../palantir/build/${CONFIGURATION}";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palantir GMail_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREFIX_HEADER = "$PROJECT_TEMP_DIR/git-info";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(HOME)/Application Support/Palantir/PlugIns";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = GMail;
+				WRAPPER_EXTENSION = pal;
+			};
+			name = Production;
+		};
+		1DEB913F08733D840010E9CD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Development;
+		};
+		1DEB914008733D840010E9CD /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Production;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02BAD09D1158949400F45CBF /* Build configuration list for PBXAggregateTarget "Git Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BAD09B1158947600F45CBF /* Development */,
+				02BAD09C1158947600F45CBF /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Palantír GMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Development */,
+				1DEB913C08733D840010E9CD /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Palantir GMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Development */,
+				1DEB914008733D840010E9CD /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Production;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
