@@ -63,7 +63,6 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {
-    NSLog(@"Trying to authenticate with username \"%@\" and password \"%@\".", [self username], [self password]);
     if ([challenge previousFailureCount] == 0) {
         NSURLCredential *newCredential;
         newCredential=[NSURLCredential credentialWithUser:[self username]
@@ -191,12 +190,7 @@
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
     int htmlHeight = ((DOMHTMLDocument *)[frame DOMDocument]).height;
-    NSLog(@"HTML height %d", htmlHeight);
     [webView setFrame:NSMakeRect(0, 0, 400, htmlHeight)];    
-}
-
-- (NSView *)windowView {
-    return webView;
 }
 
 @end
