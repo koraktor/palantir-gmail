@@ -27,6 +27,7 @@
 		0234F535114AEBC500F73B26 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234F534114AEBC500F73B26 /* Mail.m */; };
 		0234F636114BAA8600F73B26 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 0234F635114BAA8600F73B26 /* default.css */; };
 		0234F67A114BD45200F73B26 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234F679114BD45200F73B26 /* arrow.png */; };
+		027AFB5A115D34E100EF511F /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 0213451E114BE8250070E764 /* template.html */; };
 		02CEB41010F21654002C45A4 /* GoogleMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CEB40F10F21654002C45A4 /* GoogleMail.m */; };
 		02CEB41210F2165E002C45A4 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CEB41110F2165E002C45A4 /* Configuration.xib */; };
 		02D23EA4113C6F9A004062B5 /* Palantir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D23D9E113C374F004062B5 /* Palantir.framework */; };
@@ -38,7 +39,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 02BAD09A1158947600F45CBF /* Git Version */;
+			remoteGlobalIDString = 02BAD09A1158947600F45CBF;
 			remoteInfo = "Git Version";
 		};
 		02D23D9B113C374F004062B5 /* PBXContainerItemProxy */ = {
@@ -66,7 +67,7 @@
 
 /* Begin PBXFileReference section */
 		020918B310F6541D00C02294 /* Palantir.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Palantir.xcodeproj; path = ../palantir/Palantir.xcodeproj; sourceTree = SOURCE_ROOT; };
-		0213451E114BE8250070E764 /* default.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = default.html; sourceTree = "<group>"; };
+		0213451E114BE8250070E764 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
 		0234F2901146C42B00F73B26 /* new-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-mail.png"; sourceTree = "<group>"; };
 		0234F2911146C42C00F73B26 /* no-mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-mail.png"; sourceTree = "<group>"; };
 		0234F40F114A9E2200F73B26 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
@@ -140,7 +141,7 @@
 				02CEB41110F2165E002C45A4 /* Configuration.xib */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				0234F635114BAA8600F73B26 /* default.css */,
-				0213451E114BE8250070E764 /* default.html */,
+				0213451E114BE8250070E764 /* template.html */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -265,6 +266,7 @@
 				0234F2931146C42C00F73B26 /* no-mail.png in Resources */,
 				0234F636114BAA8600F73B26 /* default.css in Resources */,
 				0234F67A114BD45200F73B26 /* arrow.png in Resources */,
+				027AFB5A115D34E100EF511F /* template.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

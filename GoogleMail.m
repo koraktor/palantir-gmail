@@ -11,6 +11,7 @@
 #import "GoogleMail.h"
 #import "Mail.h"
 
+static NSString *htmlTemplate;
 
 @implementation GoogleMail
 
@@ -41,6 +42,11 @@
     [webView setDrawsBackground:NO];
     [webView setFrameLoadDelegate:self];
     [webView setPolicyDelegate:self];
+
+    htmlTemplate = [NSString stringWithContentsOfFile:[bundle pathForResource:@"template" ofType:@"html"]
+                                             encoding:NSUTF8StringEncoding
+                                                error:NULL];
+    [htmlTemplate retain];
 
     [super awakeFromNib];
 
@@ -132,7 +138,7 @@
         [mailsHtml appendString:[NSString stringWithFormat:@"<a href=\"%@\"><div id=\"mail-%@\"><div class=\"subject\" title=\"%@\">%@</div>%@</div></a>", mail.url, mail.atomId, mail.date, mail.subject, mail.summary]];
     }
 
-    NSString *htmlString = [NSString stringWithFormat:@"<html><head><link href=\"./default.css\" media=\"screen\" rel=\"stylesheet\" type=\"text/css\" /></head><body><div id=\"content\">%@</div></body></html>", mailsHtml];
+    NSString *htmlString = [NSString stringWithFormat:htmlTemplate, mailsHtml];
     
     [[self.webView mainFrame] loadHTMLString:htmlString baseURL:[self.bundle resourceURL]];
 }
