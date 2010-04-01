@@ -26,7 +26,6 @@
 		0234F410114A9E2200F73B26 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0234F40F114A9E2200F73B26 /* WebKit.framework */; };
 		0234F535114AEBC500F73B26 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234F534114AEBC500F73B26 /* Mail.m */; };
 		0234F636114BAA8600F73B26 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 0234F635114BAA8600F73B26 /* default.css */; };
-		0234F67A114BD45200F73B26 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234F679114BD45200F73B26 /* arrow.png */; };
 		027AFB5A115D34E100EF511F /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 0213451E114BE8250070E764 /* template.html */; };
 		02CEB41010F21654002C45A4 /* GoogleMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CEB40F10F21654002C45A4 /* GoogleMail.m */; };
 		02CEB41210F2165E002C45A4 /* Configuration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CEB41110F2165E002C45A4 /* Configuration.xib */; };
@@ -74,7 +73,6 @@
 		0234F533114AEBC500F73B26 /* Mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
 		0234F534114AEBC500F73B26 /* Mail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
 		0234F635114BAA8600F73B26 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
-		0234F679114BD45200F73B26 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		02CEB40E10F21654002C45A4 /* GoogleMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMail.h; sourceTree = "<group>"; };
 		02CEB40F10F21654002C45A4 /* GoogleMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMail.m; sourceTree = "<group>"; };
 		02CEB41110F2165E002C45A4 /* Configuration.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Configuration.xib; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0234F679114BD45200F73B26 /* arrow.png */,
 				0234F2901146C42B00F73B26 /* new-mail.png */,
 				0234F2911146C42C00F73B26 /* no-mail.png */,
 				02CEB41110F2165E002C45A4 /* Configuration.xib */,
@@ -265,7 +262,6 @@
 				0234F2921146C42C00F73B26 /* new-mail.png in Resources */,
 				0234F2931146C42C00F73B26 /* no-mail.png in Resources */,
 				0234F636114BAA8600F73B26 /* default.css in Resources */,
-				0234F67A114BD45200F73B26 /* arrow.png in Resources */,
 				027AFB5A115D34E100EF511F /* template.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
