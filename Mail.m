@@ -7,17 +7,20 @@
 
 #import "Mail.h"
 
+static NSDateFormatter *rfc1123DateFormatter;
 
 @implementation Mail
 
 @synthesize atomId, authors, date, subject, summary, url;
 
 + (Mail *)mailFromAtomNode:(NSXMLNode *)aNode {
+    if(rfc1123DateFormatter == nil) {
+        rfc1123DateFormatter = [[NSDateFormatter alloc] init];
+        [rfc1123DateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+        [rfc1123DateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
+    }
+
     Mail *mail = [[Mail alloc] init];
-    
-    NSDateFormatter *rfc1123DateFormatter = [[[NSDateFormatter alloc] init] autorelease];
-    [rfc1123DateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
-    [rfc1123DateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
     
     NSError *xmlError;
     
