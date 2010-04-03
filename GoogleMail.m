@@ -199,4 +199,13 @@ static NSString *htmlTemplate;
     [webView setFrame:NSMakeRect(0, 0, 400, htmlHeight)];    
 }
 
+- (void)dealloc {
+    [super dealloc];
+
+    [newMailIcon release];
+    [noMailIcon release];
+    [responseData release];
+    [webView release];
+}
+
 @end
